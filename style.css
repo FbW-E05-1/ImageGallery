@@ -1,0 +1,22 @@
+ul li {
+  list-style-type: none;
+  /* display: inline-block; */
+}
+
+.photogallery {
+  display:flex;
+  width: 200px;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  margin: 700px;
+}
+img {
+  height: 400px;
+
+  margin: 10px 10px;
+}
+img:hover {
+  height: 500px;
+  border: 1px solid black;
+}
